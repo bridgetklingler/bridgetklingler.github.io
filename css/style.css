@@ -16,7 +16,7 @@ h1{
 }
 
 h2{
-    color: rgb(35, 1, 51);
+    color: rgb(44, 2, 63);
 }
 
 
@@ -43,8 +43,7 @@ h2{
 }
 
 
-main,
-footer{
+main{
     max-width: 900px;
     margin: 0 auto;
 }
@@ -66,6 +65,37 @@ nav a{
     color: white;
     text-decoration: none;
     padding: .5em 2em;
+}
+
+nav a:hover{
+    background-color: rgb(94, 77, 102)
+}
+
+#aboutMe img{
+    display: flex;
+    justify-content: flex-end;
+    height: 350px;
+}
+
+#contactLinks ul{ 
+    display: flex;
+    align-items: row;
+    justify-content: space-around;
+}
+
+#contactLinks ul img{
+    height: 30px;
+}
+
+footer{
+    background: rgb(35, 1, 51);
+    width: 100%;
+    margin-top: 1.5em;
+    margin-bottom: 0;
+    color: white;
+    padding: 1em 0;
+    display: flex;
+    justify-content: center;   
 }
 
 
