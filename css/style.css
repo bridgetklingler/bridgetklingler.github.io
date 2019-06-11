@@ -48,14 +48,12 @@ main{
     margin: 0 auto;
 }
 
-
 nav{
     position: fixed;
     top: 0;
     left:0;
     width: 100%;
     background: rgb(35, 1, 51);
-
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -71,16 +69,55 @@ nav a:hover{
     background-color: rgb(94, 77, 102)
 }
 
+#aboutMe{
+    padding-top: 3em;
+}
+
 #aboutMe img{
     display: flex;
     justify-content: flex-end;
     height: 350px;
 }
 
+#skills{
+    padding: 3em 0;
+}
+
+#projects{
+    text-align: center;
+    text-decoration: none;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-column-gap: 1em;
+}
+
+#projects image{
+}
+
+#projects article{
+    background:rgb(218, 206, 223);
+    padding: 1em;
+    border: 1px solid #333;
+}
+
+
+#contactInfo{
+    text-align: center;
+    color: rgb(35, 1, 51);
+    width: 100%;
+    margin-top: 3em;
+    margin-bottom: -1em;
+    background: rgb(179, 209, 236);
+}
+
+
 #contactLinks ul{ 
     display: flex;
     align-items: row;
     justify-content: space-around;
+    list-style-type: none;
 }
 
 #contactLinks ul img{
