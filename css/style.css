@@ -1,0 +1,73 @@
+* {
+    font-family: Helvetica, sans-serif;
+    line-height: 1.618em;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: white;
+    font-size: 5rem;
+    padding: 8rem;
+    padding-bottom: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    color: rgb(35, 1, 51);
+}
+
+
+.title{
+    background-image: url(../images/starryNight.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.bgPhoto{
+    width: 100%;
+    height: 40rem;
+    margin: 1rem auto 0;
+    text-align: center;
+}
+
+.bgPhoto h2{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
+main,
+footer{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+nav{
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    background: rgb(35, 1, 51);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: .5em 2em;
+}
+
+
+
+
