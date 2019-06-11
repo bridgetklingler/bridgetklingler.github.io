@@ -86,20 +86,17 @@ nav a:hover{
 #projects{
     text-align: center;
     text-decoration: none;
-    padding: 1em;
+    padding: 1em 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     grid-column-gap: 1em;
 }
 
-#projects image{
-}
-
 #projects article{
     background:rgb(218, 206, 223);
     padding: 1em;
-    border: 1px solid #333;
+    border: 1px solid rgb(35, 1, 51);
 }
 
 
