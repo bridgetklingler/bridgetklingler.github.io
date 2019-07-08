@@ -8,6 +8,7 @@
 
 h1{
     color: white;
+    color: rgb(15, 32, 20);
     font-size: 5rem;
     padding: 8rem;
     padding-bottom: 1em;
@@ -46,6 +47,38 @@ h2{
 main{
     max-width: 900px;
     margin: 0 auto;
+}
+
+ul#tabs{
+    list-style-type: none;
+    margin: 30px 0 0 0;
+    padding: 0 0 .3em 0;
+}
+
+ul#tabs li{
+    display: inline;
+}
+
+ul#tabs li a{
+    color: white;
+    background-color: rgb(35, 1, 51);
+    border: 1px solid rgb(35, 1, 51);
+    text-decoration: none;
+}
+
+ul#tabs li a:hover{
+    background-color: rgb(218, 206, 223);
+    color: rgb(11, 0, 15);
+}
+
+div.tabContent{
+    border: 1px solid rgb(35, 1, 51);
+    padding: .5em;
+    background-color: rgb(218, 206, 223);
+}
+
+div.tabContent.hide{
+    display: none;
 }
 
 nav{
@@ -130,6 +163,14 @@ footer{
     padding: 1em 0;
     display: flex;
     justify-content: center;   
+}
+
+footer p{
+    text-align: right;
+}
+
+Pseudo ::selection element{
+    color: rgb(4, 0, 5);
 }
 
 

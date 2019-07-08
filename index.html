@@ -29,22 +29,26 @@
                 <p>C#, Full Stack, HTML, CSS</p>
 
             </section>
-            <section id="myProjects">
+            <section onload="init()" id="myProjects">
                 <h2>Projects</h2>
-                    <div id="projects">
-                        <article>
+                    <div class="tabContent" id="projects">
+                        <article id="virtualPet">
                             <a href="https://github.com/bridgetklingler/VP3" target="blank">
                                 <img src="./images/pets.jpg" alt="pets"></a>
                             <h2>Virtual Pet</h2>
                             <p>Created a C# program where the user could create an organic or robotic pet and store them in a shelter. We were very proud of our "hurt" method where we created a 10% chance the pet could get hurt when the choosing to play with their pet.</p>
                         </article>
-                        <article>
+                        <article id="universityHospital">
                             <a href="https://github.com/bridgetklingler/UniversityClinicHospital" target="blank">
                                 <img src="./images/hospital-room.jpg" alt="hospital room"></a>
                             <h2>University Hospitals</h2>
                             <p>Created a C# program where users could view lists of Medical and Non-Medical staff and choose to pay their employees. Kept a keen eye on structure and layout of the lists when running the program.</p>
                         </article>
                     </div>
+                    <ul id="tabs">
+                        <li><a href="#virtualPet">Virtual Pet</a></li>
+                        <li><a href="#universityHospital">University Hospitals</a></li>
+                    </ul>
                 
             </section>
             <section id="contactInfo">
@@ -69,6 +73,7 @@
                         </ul>
                     </div>
             </section>
+            <script src="./app.js"></script>
         </body>
     </main>
     <nav>
@@ -78,7 +83,10 @@
         <a href="#contactInfo">Contact Info</a>
     </nav>
     <footer>
-            Copyright &copy; 2019 Bridget Messaros
+            Copyright &copy; 2019 Bridget Klingler
+            <p>
+                <a style="cursor: pointer" onclick="localStorage.setItem('mode', (localStorage.getItem('mode') || 'dark') === 'dark' ? 'bright' : 'dark'); localStorage.getItem('mode') === 'dark' ? document.querySelector('body').classList.add('dark') : document.querySelector('body').classList.remove('dark')">🌓 Light|dark mode</a>
+            </p>
     </footer>
 
 </html>
