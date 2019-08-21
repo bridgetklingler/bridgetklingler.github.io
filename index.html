@@ -3,8 +3,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Bridget Klingler</title>
     <link rel="stylesheet" href="./css/style.css">
+    <script type="text/javascript"></script>
 
 </head>
 <body>
@@ -29,9 +30,21 @@
                 <p>C#, Full Stack, HTML, CSS</p>
 
             </section>
-            <section onload="init()" id="myProjects">
+            <!-- <section onload="init();" id="myProjects"> -->
                 <h2>Projects</h2>
                     <div class="tabContent" id="projects">
+                        <article id="JCPpayroll">
+                            <h2>JCP Payroll</h2>
+                            <p>Created a Single Page Application utilizing Entity Framework to populate a Sequel Database and used Node to access that information on the front end. Worked on a team of 6 and created our program in 2.5 weeks- featuring a individualized log-in, running clock, drop down selections, search bars, and calendars.</p>
+                        </article>
+                        <article id="spaceProgramMission"> 
+                            <h2>Space Program Mission Tracker</h2>
+                            <p>Worked as a pair to design a user-friendly Single Page Application to log space missions between Stellar Bodies and Space Agencies.</p>
+                        </article>
+                        <article id="gardenBlog">
+                            <h2>Garden Blog</h2>
+                            <p>Worked as a pair to design an MVC program where users could create blog posts under 2 categories. Featuring a working DateTime function to track when new posts were created on the webpage.</p>
+                        </article>
                         <article id="virtualPet">
                             <a href="https://github.com/bridgetklingler/VP3" target="blank">
                                 <img src="./images/pets.jpg" alt="pets"></a>
@@ -46,8 +59,11 @@
                         </article>
                     </div>
                     <ul id="tabs">
-                        <li><a href="#virtualPet">Virtual Pet</a></li>
+                        <li><a href="#JCPpayroll">JCP Payroll</a></li>
+                        <li><a href="#spaceProgramMission">Space Mission Tracker</a></li>
+                        <li><a href="#gardenBlog">Garden Blog</a></li>
                         <li><a href="#universityHospital">University Hospitals</a></li>
+                        <li><a href="#virtualPet">Virtual Pet</a></li>
                     </ul>
                 
             </section>
@@ -73,7 +89,7 @@
                         </ul>
                     </div>
             </section>
-            <script src="./app.js"></script>
+            <!-- <script src="./javaScript.js"></script> -->
         </body>
     </main>
     <nav>
@@ -85,7 +101,7 @@
     <footer>
             Copyright &copy; 2019 Bridget Klingler
             <p>
-                <a style="cursor: pointer" onclick="localStorage.setItem('mode', (localStorage.getItem('mode') || 'dark') === 'dark' ? 'bright' : 'dark'); localStorage.getItem('mode') === 'dark' ? document.querySelector('body').classList.add('dark') : document.querySelector('body').classList.remove('dark')">🌓 Light|dark mode</a>
+                <!-- <a style="cursor: pointer" onclick="localStorage.setItem('mode', (localStorage.getItem('mode') || 'dark') === 'dark' ? 'bright' : 'dark'); localStorage.getItem('mode') === 'dark' ? document.querySelector('body').classList.add('dark') : document.querySelector('body').classList.remove('dark')">🌓 Light|dark mode</a> -->
             </p>
     </footer>
 
