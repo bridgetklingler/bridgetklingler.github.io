@@ -84,17 +84,17 @@ ul #tabs li{
 #tabbuttons{
     display: flex;
     justify-content: space-between;
-    width: 70vw;
+    width: 60vw;
     background-color: rgb(35, 1, 51);
 }
 
 #myProjects{
-    width: 100%;
+    width: 60vw;
     text-align: center;
 }
 
 div.tabContent{
-    width: 70vw;
+    width: 60vw;
     text-align: center;
     border: 1px solid rgb(35, 1, 51);
     padding: .5em;
@@ -103,6 +103,7 @@ div.tabContent{
 
 div.tabContent p{
     margin-top: 1em;
+    width: 58vw;
 }
 
 div.tabContent.hide{
